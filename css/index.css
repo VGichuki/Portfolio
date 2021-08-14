@@ -172,4 +172,12 @@ html{
     border: none;
     box-shadow: 0 0 20px rgb(255, 255, 00);
 }
+ /* Footer */
+ .footer-copyright{
+     text-align: center;
+     background-color: rgb(230, 230, 230);
+     height: 50px;
+     position: sticky;
+
+ }
 
