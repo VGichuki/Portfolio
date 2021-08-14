@@ -99,3 +99,35 @@
     font-size: 3rem;
     margin: 40px 0px;
 }
+
+/* About */
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#picture{
+    display: flex;
+}
+#picture img{
+    width: 500px;
+    height: 400px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+#introduction{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#introduction h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
