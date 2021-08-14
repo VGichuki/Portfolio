@@ -7,7 +7,7 @@
 /* Navbar */
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: rgb(230, 230, 230);
     position: sticky;
@@ -17,15 +17,59 @@
     display: flex;
     list-style: none;
     margin: 20px 0px;
+    flex-direction: row;
+    align-items: center;
 }
 .navbar ul li{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: unset;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     font-weight: bolder;
+    position: relative;
+    height: 100%;
+    display: flex;
 }
 .navbar ul li a{
     text-decoration: none;
     color: black;
     padding: 10px 20px;
     transition: all .5s ease;
+    z-index: 1;
+}
+.navbar ul li::before{
+    content: '';
+    position: absolute;
+    height: 33.33%;
+    width: 0px;
+    background-color: yellow;
+    right: 0;
+    z-index: 0;
+    top: 33.33%;
+    transition: all .5s ease;
+}
+.navbar ul li::after{
+    content: '';
+    position: absolute;
+    height: 33.33%;
+    width: 0px;
+    background-color: yellow;
+    left: 0;
+    z-index: 0;
+    bottom: 0;
+    transition: all .5s ease;
+}
+.navbar ul li a::before{
+    position: absolute;
+    content: '';
+    height: 33.33%;
+    width: 0%;
+    background-color: yellow;
+    bottom: 66.66%;
+    left: 0;
+    transition: all .5s ease;
+
+}
+.navbar ul li:hover::before,
+.navbar ul li:hover::after,
+.navbar ul li:hover a::before{
+    width: 100%;
 }
