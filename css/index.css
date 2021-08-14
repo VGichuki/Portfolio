@@ -22,7 +22,7 @@
 }
 .navbar ul li{
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bolder;
     position: relative;
     height: 100%;
@@ -72,4 +72,30 @@
 .navbar ul li:hover::after,
 .navbar ul li:hover a::before{
     width: 100%;
+}
+
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+}
+.homepage{
+    background-image: url(https://images.unsplash.com/photo-1587300339917-153206f5d832?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80);
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.name{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin: 40px 0px;
 }
