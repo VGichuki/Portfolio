@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/index.css" type="text/css">
     </head>
     <body>
+        
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -48,7 +49,8 @@
             <div class="container">
                     <div class="skills-lnt">
                       <h3 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Languages I have learnt:</h3>
-                     <p style="font-family: 'Times New Roman', Times, serif;">HTML, CSS, JavaScript, Python, Django, Angular Flask and PostgreSQl</p>
+                     <p style="font-family: 'Times New Roman', Times, serif;">
+                        HTML, CSS, JavaScript, Python, Django, Angular Flask and PostgreSQl</p>
                      <h3 style="text-align: center; font-family: 'Times New Roman', Times, serif;">Other applications:</h3>
                      <p style="font-family: 'Times New Roman', Times, serif;">Git and Heroku</p>
                     </div>
@@ -56,17 +58,60 @@
         </section>
 
         <section id="projects">
+            <div class="container">
             <h1 class="heading">Projects</h1>
             <div class="images">
                 <div class="row">
-                    <p><a href="https://galleryapp21.herokuapp.com/">Gallery App</a></p>
-                    <p><a href="https://minimusic20.herokuapp.com/">Mini Music</a></p>
-                    <p><a href="https://pitchapp26.herokuapp.com/">Goal App</a></p>
-                    <p><a href="https://newsapp25.herokuapp.com/">NewsApi</a></p>
-                    <p><a href="https://vgichuki.github.io/delani-studio/">Delani Studio</a></p>
-                    <p><a href="https://vgichuki.github.io/cyclistspace/">Cyclist space(Collaborated project)</a></p>
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Gallery.png" alt="Gallery">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://galleryapp21.herokuapp.com/">Gallery App</a></h5>
+                            <p class="card-text">This is a Django application for my personal gallery where a user can upload images for other to see and be able to search for images according to their category.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Minimusic.png" alt="Music">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://minimusic20.herokuapp.com/">Mini Music</a></h5>
+                            <p class="card-text">This is a Django application which works like a playlist. A user registers then directed to the home page. Here you upload any music of your choice and you can listen to it at anytime, anywhere.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Pitch.png" alt="Pitch">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://pitchapp26.herokuapp.com/">Goal App</a></h5>
+                            <p class="card-text">This project entails an app where you can write,view and comment on different pitches.</p>
+                          </div>
+                        </div>
+                      </div>
+                <div class="row">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Github.png" alt="Github">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://vgichuki.github.io/github-search/">Github Search</a></h5>
+                            <p class="card-text">The github-search project uses HTML, CSS, TypeScript and Angular. This project helps people to search for users github username.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Delani.png" alt="Delani">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://vgichuki.github.io/delani-studio/">Delani Studio</a></h5>
+                            <p class="card-text">Delani studio uses HTML,CSS, JavaScript and JQuery. This is a repository that entails boilerplate code.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="./img/Cyclist.png" alt="Cyclist">
+                          <div class="card-body">
+                            <h5 class="card-title"><a href="https://vgichuki.github.io/cyclistspace/">Cyclist space(Collaborated project)</a></h5>
+                            <p class="card-text">An online resource featuring blogs, vlogs, podcasts and events for all types of cyclists.</p>
+                          </div>
+                        </div>
+                      </div>
                 </div>
             </div>
+        </div>
         </section>
 
               
@@ -117,6 +162,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/main.js"></script>
+
+
       
     </body>
 </html>
